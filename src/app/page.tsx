@@ -405,7 +405,7 @@ export default function Home() {
                 </p>
 
                 <div
-                  className='hero-cta-row flex flex-wrap items-center'
+                  className='hero-cta-row flex flex-wrap items-center gap-4 sm:gap-5'
                   data-reveal
                   style={revealStyle(290)}
                 >

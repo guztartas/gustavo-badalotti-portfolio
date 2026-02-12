@@ -126,6 +126,8 @@ export const themeOptions: Array<{ value: ThemePreference }> = [
 
 const sharedContacts = {
   phone: '+55 54 99133-2950',
+  email: 'gustavo_badalotti@hotmail.com',
+  github: 'https://github.com/gutobadalotti',
   linkedin: 'https://www.linkedin.com/in/gustavo-badalotti-80b191153/',
   whatsapp: 'https://wa.me/5554991332950',
 };
