@@ -190,8 +190,10 @@ main section {
   border-radius: 999px;
   color: var(--text-subtle);
   background: transparent;
+  font-family: var(--font-body), sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
+  line-height: 1;
   min-width: 2.5rem;
   padding: 0.38rem 0.74rem;
   cursor: pointer;
