@@ -397,10 +397,7 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
         ],
       },
     ],
-    languages: [
-      'Portuguese (Native)',
-      'English (Professional working proficiency)',
-    ],
+    languages: ['Portuguese (Native)', 'English (Fluent)'],
     contacts: sharedContacts,
     labels: {
       navigation: {
@@ -546,7 +543,7 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
         ],
       },
     ],
-    languages: ['Português (Nativo)', 'Inglês (Profissional)'],
+    languages: ['Português (Nativo)', 'Inglês (Fluente)'],
     contacts: sharedContacts,
     labels: {
       navigation: {
