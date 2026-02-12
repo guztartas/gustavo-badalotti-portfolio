@@ -318,7 +318,10 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
     summary:
       'Database Engineer with 5+ years in relational databases, specialized in PostgreSQL performance tuning and query optimization. Hands-on with AlloyDB and CloudSQL on GCP, with strong focus on execution plan analysis, indexing strategy, statistics tuning, logical replication, and production reliability.',
     metrics: [
-      { value: '5+ years', label: 'Relational database engineering experience' },
+      {
+        value: '5+ years',
+        label: 'Relational database engineering experience',
+      },
       {
         value: '70%',
         label: 'Reduction in critical query execution time',
@@ -394,7 +397,10 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
         ],
       },
     ],
-    languages: ['Portuguese (Native)', 'English (Professional working proficiency)'],
+    languages: [
+      'Portuguese (Native)',
+      'English (Professional working proficiency)',
+    ],
     contacts: sharedContacts,
     labels: {
       navigation: {
