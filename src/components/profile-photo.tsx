@@ -21,7 +21,7 @@ export function ProfilePhoto() {
         height={PHOTO_SIZE}
         sizes={`(max-width: 1024px) ${MOBILE_PHOTO_WIDTH}, ${DESKTOP_PHOTO_WIDTH}`}
         quality={100}
-        className='profile-photo-image h-full w-full object-cover'
+        className='profile-photo-image'
         priority
         onError={() => {
           if (photoSrc !== FALLBACK_PHOTO) {
