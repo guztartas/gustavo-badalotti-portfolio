@@ -379,11 +379,6 @@ main section {
   }
 }
 
-[data-theme='light'] .secondary-cta {
-  border-color: rgba(28, 41, 56, 0.36);
-  background: rgba(248, 251, 255, 0.62);
-}
-
 @media (min-width: 860px) {
   .hero-top-layout {
     gap: 3rem;
