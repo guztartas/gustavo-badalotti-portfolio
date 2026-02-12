@@ -1,27 +1,27 @@
-import type { Metadata } from "next";
-import { Manrope, Syne } from "next/font/google";
-import Script from "next/script";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Manrope, Syne } from 'next/font/google';
+import Script from 'next/script';
+import './globals.css';
 
 const bodyFont = Manrope({
-  variable: "--font-body",
-  subsets: ["latin"],
+  variable: '--font-body',
+  subsets: ['latin'],
 });
 
 const displayFont = Syne({
-  variable: "--font-display",
-  subsets: ["latin"],
+  variable: '--font-display',
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: "Gustavo Badalotti | Database Engineer",
+  title: 'Gustavo Badalotti | Database Engineer',
   description:
-    "Portfolio of Gustavo Badalotti: Database Engineer specialized in PostgreSQL performance, low-latency replication, and production-grade data infrastructure.",
+    'Portfolio of Gustavo Badalotti: Database Engineer specialized in PostgreSQL performance, low-latency replication, and production-grade data infrastructure.',
   openGraph: {
-    title: "Gustavo Badalotti | Database Engineer",
+    title: 'Gustavo Badalotti | Database Engineer',
     description:
-      "PostgreSQL and performance-focused portfolio with experience in AlloyDB, CloudSQL, ETL pipelines, and production incident handling.",
-    type: "website",
+      'PostgreSQL and performance-focused portfolio with experience in AlloyDB, CloudSQL, ETL pipelines, and production incident handling.',
+    type: 'website',
   },
 };
 
@@ -48,13 +48,17 @@ export default function RootLayout({
   `;
 
   return (
-    <html lang="en-US" suppressHydrationWarning>
+    <html lang='en-US' suppressHydrationWarning>
       <head>
-        <Script id="gb-init-theme-and-locale" strategy="beforeInteractive">
+        <Script id='gb-init-theme-and-locale' strategy='beforeInteractive'>
           {initScript}
         </Script>
       </head>
-      <body className={`${bodyFont.variable} ${displayFont.variable} antialiased`}>{children}</body>
+      <body
+        className={`${bodyFont.variable} ${displayFont.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

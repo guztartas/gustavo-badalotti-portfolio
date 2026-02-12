@@ -133,7 +133,8 @@ const readInitialThemePreference = (): ThemePreference => {
 
 export default function Home() {
   const [locale, setLocale] = useState<Locale>(defaultLocale);
-  const [themePreference, setThemePreference] = useState<ThemePreference>('dark');
+  const [themePreference, setThemePreference] =
+    useState<ThemePreference>('dark');
   const [isPreferenceSynced, setIsPreferenceSynced] = useState(false);
   const [impactIndex, setImpactIndex] = useState(0);
   const [recommendationIndex, setRecommendationIndex] = useState(0);
@@ -421,10 +422,13 @@ export default function Home() {
                     {content.labels.hero.secondaryCta}
                   </a>
                 </div>
-
               </div>
 
-              <div className='hero-media-column relative' data-reveal style={revealStyle(170)}>
+              <div
+                className='hero-media-column relative'
+                data-reveal
+                style={revealStyle(170)}
+              >
                 <div className='photo-glow' aria-hidden />
                 <ProfilePhoto />
               </div>
@@ -506,17 +510,15 @@ export default function Home() {
                         return;
                       }
 
-                      setImpactIndex(
-                        (currentIndex) => {
-                          const boundedIndex = Math.min(
-                            currentIndex,
-                            impactMaxIndex,
-                          );
-                          return boundedIndex <= 0
-                            ? impactMaxIndex
-                            : boundedIndex - 1;
-                        },
-                      );
+                      setImpactIndex((currentIndex) => {
+                        const boundedIndex = Math.min(
+                          currentIndex,
+                          impactMaxIndex,
+                        );
+                        return boundedIndex <= 0
+                          ? impactMaxIndex
+                          : boundedIndex - 1;
+                      });
                     }}
                     disabled={!hasImpactCarousel}
                   >
@@ -546,17 +548,15 @@ export default function Home() {
                         return;
                       }
 
-                      setImpactIndex(
-                        (currentIndex) => {
-                          const boundedIndex = Math.min(
-                            currentIndex,
-                            impactMaxIndex,
-                          );
-                          return boundedIndex >= impactMaxIndex
-                            ? 0
-                            : boundedIndex + 1;
-                        },
-                      );
+                      setImpactIndex((currentIndex) => {
+                        const boundedIndex = Math.min(
+                          currentIndex,
+                          impactMaxIndex,
+                        );
+                        return boundedIndex >= impactMaxIndex
+                          ? 0
+                          : boundedIndex + 1;
+                      });
                     }}
                     disabled={!hasImpactCarousel}
                   >
@@ -644,17 +644,15 @@ export default function Home() {
                       return;
                     }
 
-                    setRecommendationIndex(
-                      (currentIndex) => {
-                        const boundedIndex = Math.min(
-                          currentIndex,
-                          recommendationMaxIndex,
-                        );
-                        return boundedIndex <= 0
-                          ? recommendationMaxIndex
-                          : boundedIndex - 1;
-                      },
-                    );
+                    setRecommendationIndex((currentIndex) => {
+                      const boundedIndex = Math.min(
+                        currentIndex,
+                        recommendationMaxIndex,
+                      );
+                      return boundedIndex <= 0
+                        ? recommendationMaxIndex
+                        : boundedIndex - 1;
+                    });
                   }}
                   disabled={!hasRecommendationCarousel}
                 >
@@ -684,17 +682,15 @@ export default function Home() {
                       return;
                     }
 
-                    setRecommendationIndex(
-                      (currentIndex) => {
-                        const boundedIndex = Math.min(
-                          currentIndex,
-                          recommendationMaxIndex,
-                        );
-                        return boundedIndex >= recommendationMaxIndex
-                          ? 0
-                          : boundedIndex + 1;
-                      },
-                    );
+                    setRecommendationIndex((currentIndex) => {
+                      const boundedIndex = Math.min(
+                        currentIndex,
+                        recommendationMaxIndex,
+                      );
+                      return boundedIndex >= recommendationMaxIndex
+                        ? 0
+                        : boundedIndex + 1;
+                    });
                   }}
                   disabled={!hasRecommendationCarousel}
                 >
