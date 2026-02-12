@@ -142,7 +142,7 @@ const experiencesEn: Experience[] = [
       'Managing and optimizing PostgreSQL and AlloyDB production workloads with emphasis on low latency, reliability, and incident readiness.',
     highlights: [
       'Reduced execution time of critical queries by up to 70% through execution plan analysis, refactoring, and indexing strategy redesign.',
-      'Designed logical replication flows with near real-time consistency and continuous lag monitoring.',
+      'Designed lógical replication flows with near real-time consistency and continuous lag monitoring.',
       'Built Python ETL pipelines integrating millions of PostgreSQL records into Elasticsearch.',
       'Created Datadog dashboards and alerts for replication behavior and database performance.',
       'Acted directly in production incident investigation, mitigation, and long-term stability improvements.',
@@ -159,7 +159,7 @@ const experiencesEn: Experience[] = [
     ],
   },
   {
-    company: 'ECS Inovacao',
+    company: 'ECS Inovação',
     role: 'Database Developer',
     period: '2021 - 2022',
     location: 'Brazil',
@@ -173,7 +173,7 @@ const experiencesEn: Experience[] = [
     stack: ['SQL Server', 'T-SQL', 'Automation', 'Performance Tuning'],
   },
   {
-    company: 'System Sistemas de Gestao',
+    company: 'System Sistemas de Gestão',
     role: 'Software Developer',
     period: '2017 - 2021',
     location: 'Brazil',
@@ -215,7 +215,7 @@ const experiencesPt: Experience[] = [
     ],
   },
   {
-    company: 'ECS Inovacao',
+    company: 'ECS Inovação',
     role: 'Database Developer',
     period: '2021 - 2022',
     location: 'Brasil',
@@ -226,21 +226,21 @@ const experiencesPt: Experience[] = [
       'Melhoria de performance de relatórios com otimizações de query e estrutura de banco.',
       'Evolução de rotinas de automação para aumentar consistência e previsibilidade operacional.',
     ],
-    stack: ['SQL Server', 'T-SQL', 'Automacao', 'Performance Tuning'],
+    stack: ['SQL Server', 'T-SQL', 'Automação', 'Performance Tuning'],
   },
   {
-    company: 'System Sistemas de Gestao',
+    company: 'System Sistemas de Gestão',
     role: 'Software Developer',
     period: '2017 - 2021',
     location: 'Brasil',
     summary:
-      'Desenvolvimento de funcionalidades ERP e rotinas de relatorio em Delphi e SQL Server, com suporte direto a performance e troubleshooting em producao.',
+      'Desenvolvimento de funcionalidades ERP e rotinas de relatório em Delphi e SQL Server, com suporte direto a performance e troubleshooting em produção.',
     highlights: [
-      'Implementacao de modulos ERP conectados a cargas transacionais em SQL Server.',
-      'Desenho de queries de relatorio e rotinas de integracao entre sistemas.',
-      'Suporte direto na analise de problemas e melhoria de desempenho em banco de dados.',
+      'Implementação de módulos ERP conectados a cargas transacionais em SQL Server.',
+      'Desenho de queries de relatório e rotinas de integração entre sistemas.',
+      'Suporte direto na análise de problemas e melhoria de desempenho em banco de dados.',
     ],
-    stack: ['Delphi', 'SQL Server', 'ERP', 'Integracao de Dados'],
+    stack: ['Delphi', 'SQL Server', 'ERP', 'Integração de Dados'],
   },
 ];
 
@@ -257,7 +257,7 @@ const recommendationsEn: Recommendation[] = [
     role: 'Data Infrastructure',
     relation: 'Low-Latency Replication • Reliability',
     quote:
-      'Implemented logical replication with sub-second targets, maintaining near real-time data consistency while monitoring lag and failure scenarios in production.',
+      'Implemented lógical replication with sub-second targets, maintaining near real-time data consistency while monitoring lag and failure scenarios in production.',
   },
   {
     name: 'PostgreSQL to Elasticsearch Pipeline',
@@ -277,32 +277,32 @@ const recommendationsEn: Recommendation[] = [
 
 const recommendationsPt: Recommendation[] = [
   {
-    name: 'Iniciativa de Otimizacao de Queries',
+    name: 'Iniciativa de Otimização de Queries',
     role: 'Engenharia de Performance',
-    relation: 'Planos de Execucao • Indexacao • Estatisticas',
+    relation: 'Planos de Execução • Indexação • Estatísticas',
     quote:
-      'Investiguei planos de alto custo, identifiquei indices ausentes ou ineficientes e refatorei caminhos SQL criticos para reduzir latencia e melhorar a responsividade do sistema.',
+      'Investiguei planos de alto custo, identifiquei índices ausentes ou ineficientes e refatorei caminhos SQL críticos para reduzir latência e melhorar a responsividade do sistema.',
   },
   {
-    name: 'Arquitetura de Replicacao Logica',
+    name: 'Arquitetura de Replicação Lógica',
     role: 'Infraestrutura de Dados',
-    relation: 'Replicacao de Baixa Latencia • Confiabilidade',
+    relation: 'Replicação de Baixa Latência • Confiabilidade',
     quote:
-      'Implementei replicacao logica com alvo sub-segundo, mantendo consistencia quase em tempo real e monitorando lag e cenarios de falha em producao.',
+      'Implementei replicação lógica com alvo sub-segundo, mantendo consistência quase em tempo real e monitorando lag e cenários de falha em produção.',
   },
   {
     name: 'Pipeline PostgreSQL para Elasticsearch',
     role: 'ETL e Infra de Busca',
     relation: 'ETL em Python • Mapeamentos Customizados',
     quote:
-      'Desenhei queries de extracao, construi a camada de transformacao em Python e indexei dados estruturados no Elasticsearch para melhorar capacidade e performance de busca.',
+      'Desenhei queries de extração, construí a camada de transformação em Python e indexei dados estruturados no Elasticsearch para melhorar capacidade e performance de busca.',
   },
   {
-    name: 'Playbook de Incidentes em Producao',
-    role: 'Troubleshooting e Recuperacao',
-    relation: 'Locks • Regressao de Plano • Lag',
+    name: 'Playbook de Incidentes em Produção',
+    role: 'Troubleshooting e Recuperação',
+    relation: 'Locks • Regressão de Plano • Lag',
     quote:
-      'Apliquei uma abordagem estruturada de debug para incidentes de degradacao, cobrindo analise de lock e bloqueio, regressao de plano, recalibracao de estatisticas e mitigacao de lag.',
+      'Apliquei uma abordagem estruturada de debug para incidentes de degradação, cobrindo análise de lock e bloqueio, regressão de plano, recalibração de estatísticas e mitigação de lag.',
   },
 ];
 
@@ -316,7 +316,7 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
         'I design, optimize and scale production-grade database systems focused on performance, reliability and low-latency data pipelines.',
     },
     summary:
-      'Database Engineer with 5+ years in relational databases, specialized in PostgreSQL performance tuning and query optimization. Hands-on with AlloyDB and CloudSQL on GCP, with strong focus on execution plan analysis, indexing strategy, statistics tuning, logical replication, and production reliability.',
+      'Database Engineer with 5+ years in relational databases, specialized in PostgreSQL performance tuning and query optimization. Hands-on with AlloyDB and CloudSQL on GCP, with strong focus on execution plan analysis, indexing strategy, statistics tuning, lógical replication, and production reliability.',
     metrics: [
       {
         value: '5+ years',
@@ -346,7 +346,7 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
       {
         title: 'Data Infrastructure',
         description:
-          'Design of logical replication flows, failover-aware data topology, and Python ETL services connecting PostgreSQL and Elasticsearch.',
+          'Design of lógical replication flows, failover-aware data topology, and Python ETL services connecting PostgreSQL and Elasticsearch.',
         result:
           'Reliable, low-latency data movement with consistent structures for downstream search and analytics.',
       },
@@ -462,25 +462,25 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
       role: 'Database Engineer - Especialista em PostgreSQL e Performance',
       location: 'Brasil',
       tagline:
-        'Projeto, otimizo e escalo sistemas de banco de dados em producao com foco em performance, confiabilidade e pipelines de baixa latencia.',
+        'Projeto, otimizo e escalo sistemas de banco de dados em produção com foco em performance, confiabilidade e pipelines de baixa latência.',
     },
     summary:
-      'Database Engineer com 5+ anos de experiencia em bancos relacionais, especializado em tuning de performance no PostgreSQL e otimizacao de queries. Atuacao pratica com AlloyDB e CloudSQL na GCP, com foco forte em analise de planos de execucao, estrategia de indices, ajuste de estatisticas, replicacao logica e confiabilidade em producao.',
+      'Database Engineer com 5+ anos de experiência em bancos relacionais, especializado em tuning de performance no PostgreSQL e otimização de queries. Atuação prática com AlloyDB e CloudSQL na GCP, com foco forte em análise de planos de execução, estratégia de índices, ajuste de estatísticas, replicação lógica e confiabilidade em produção.',
     metrics: [
       {
         value: '5+ anos',
-        label: 'Experiencia em engenharia de banco de dados relacional',
+        label: 'Experiência em engenharia de banco de dados relacional',
       },
       {
         value: '70%',
-        label: 'Reducao no tempo de execucao de queries criticas',
+        label: 'Redução no tempo de execução de queries críticas',
       },
       {
         value: '<1s',
-        label: 'Meta de latencia para replicacao logica em producao',
+        label: 'Meta de latência para replicação lógica em produção',
       },
       {
-        value: 'Milhoes',
+        value: 'Milhões',
         label: 'Registros processados via ETL para Elasticsearch',
       },
     ],
@@ -488,30 +488,30 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
       {
         title: 'Engenharia de Performance em Banco',
         description:
-          'Analise profunda de planos de execucao, refatoracao SQL, redesenho de indices, otimizacao de scan path, tuning de estatisticas e diagnostico de lock/deadlock.',
+          'Análise profunda de planos de execução, refatoração SQL, redesenho de índices, otimização de scan path, tuning de estatísticas e diagnóstico de lock/deadlock.',
         result:
-          'Menor latencia, throughput mais previsivel e consultas mais eficientes em cargas de producao.',
+          'Menor latência, throughput mais previsível e consultas mais eficientes em cargas de produção.',
       },
       {
         title: 'Infraestrutura de Dados',
         description:
-          'Desenho de replicacao logica, topologias com suporte a failover e servicos ETL em Python integrando PostgreSQL com Elasticsearch.',
+          'Desenho de replicação lógica, topologias com suporte a failover e serviços ETL em Python integrando PostgreSQL com Elasticsearch.',
         result:
-          'Movimentacao de dados confiavel e de baixa latencia para consumo operacional e busca.',
+          'Movimentação de dados confiável e de baixa latência para consumo operacional e busca.',
       },
       {
         title: 'Observabilidade e Monitoramento',
         description:
-          'Dashboards e alertas no Datadog para lag de replicacao, consultas lentas e sinais de degradacao de performance.',
+          'Dashboards e alertas no Datadog para lag de replicação, consultas lentas e sinais de degradação de performance.',
         result:
-          'Deteccao mais rapida de anomalias e melhor tempo de resposta em operacoes de producao.',
+          'Detecção mais rápida de anomalias e melhor tempo de resposta em operações de produção.',
       },
       {
         title: 'Banco Gerenciado na GCP',
         description:
-          'Atuacao pratica com AlloyDB, CloudSQL e BigQuery em ambientes gerenciados de producao.',
+          'Atuação prática com AlloyDB, CloudSQL e BigQuery em ambientes gerenciados de produção.',
         result:
-          'Equilibrio entre custo, escalabilidade e performance em workloads de banco em nuvem.',
+          'Equilíbrio entre custo, escalabilidade e performance em workloads de banco em nuvem.',
       },
     ],
     recommendations: recommendationsPt,
@@ -524,11 +524,11 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
       {
         title: 'Engenharia de Performance',
         items: [
-          'Analise de Planos de Execucao',
-          'Estrategias de Indexacao',
-          'Ajuste de Estatisticas',
-          'Otimizacao de Queries',
-          'Analise de Lock e Deadlock',
+          'Análise de Planos de Execução',
+          'Estratégias de Indexação',
+          'Ajuste de Estatísticas',
+          'Otimização de Queries',
+          'Análise de Lock e Deadlock',
         ],
       },
       {
@@ -542,43 +542,43 @@ export const portfolioDataByLocale: Record<Locale, PortfolioLocaleData> = {
           'Monitoramento e Alertas',
           'Google Cloud Platform',
           'BigQuery',
-          'Tratativa de Incidentes em Producao',
+          'Tratativa de Incidentes em Produção',
         ],
       },
     ],
-    languages: ['Portugues (Nativo)', 'Ingles (Profissional)'],
+    languages: ['Português (Nativo)', 'Inglês (Profissional)'],
     contacts: sharedContacts,
     labels: {
       navigation: {
-        impact: 'Atuacao',
+        impact: 'Atuação',
         recommendations: 'Cases',
-        experience: 'Experiencia',
+        experience: 'Experiência',
         skills: 'Stack',
         contact: 'Contato',
-        resume: 'Curriculo',
+        resume: 'Currículo',
       },
       hero: {
         headlineAccent: 'Performance em PostgreSQL.',
-        headlineBase: 'Confiabilidade e escala em producao.',
+        headlineBase: 'Confiabilidade e escala em produção.',
         primaryCta: 'Conversar sobre Projeto',
-        secondaryCta: 'Baixar Curriculo',
+        secondaryCta: 'Baixar Currículo',
       },
       sections: {
         impactTag: 'Capacidades principais',
         impactTitle: 'Como eu projeto bancos de dados de alta performance',
         recommendationsTag: 'Trabalhos selecionados',
-        recommendationsTitle: 'Cases em ambientes reais de producao',
+        recommendationsTitle: 'Cases em ambientes reais de produção',
         recommendationsSource:
-          'Exemplos baseados em iniciativas reais focadas em latencia, consistencia e confiabilidade.',
+          'Exemplos baseados em iniciativas reais focadas em latência, consistência e confiabilidade.',
         experienceTag: 'Linha do tempo',
-        experienceTitle: 'Experiencia pratica com banco e plataforma de dados',
-        skillsTag: 'Stack tecnico',
-        skillsTitle: 'Banco, performance, ETL e operacao em cloud',
+        experienceTitle: 'Experiência prática com banco e plataforma de dados',
+        skillsTag: 'Stack técnico',
+        skillsTitle: 'Banco, performance, ETL e operação em cloud',
         languagesTag: 'Idiomas',
         contactTag: 'Aberto a oportunidades',
         contactTitle: 'Vamos otimizar sua camada de dados',
         contactSummary:
-          'Disponivel para oportunidades como Database Engineer com foco em PostgreSQL, performance e ambientes criticos de producao.',
+          'Disponível para oportunidades como Database Engineer com foco em PostgreSQL, performance e ambientes críticos de produção.',
       },
       contacts: {
         whatsapp: 'WhatsApp',
